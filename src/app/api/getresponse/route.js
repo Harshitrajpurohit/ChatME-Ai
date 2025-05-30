@@ -9,16 +9,15 @@ export async function GET(){
 export async function POST(request) {
   const data = await request.json();
   const userMessage = data.message;
-  
+
   try {
 
     const apiResponse = await gemeniApi(userMessage)
     return Response.json({ reply: apiResponse });
-  
+
   } catch (error) {
     return Response.json({ reply: "Chatbot is not Working, Try Again Leter." },{
       status:404
     });
   }
-
 }
