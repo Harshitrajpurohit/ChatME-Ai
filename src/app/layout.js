@@ -9,10 +9,9 @@ const lexend = Lexend({
 })
  
 export const metadata = {
-  title: "ResuMate AI",
+  title: "Chat Bot",
   description: "Your smart assistant for resume creation and review",
 };
-
 
 export default function RootLayout({ children }) {
   return (

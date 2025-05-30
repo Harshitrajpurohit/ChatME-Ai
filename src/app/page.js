@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className=" text-white flex flex-col justify-center items-center h-screen px-8 md:px-12 bg-[#10151f]">
         <h1 className="text-4xl text-center md:text-5xl font-extrabold text-white mb-6">
-          Welcome to <span className="text-indigo-500">ResuMate Ai</span>
+          Welcome to <span className="text-indigo-500">ChatME Ai</span>
         </h1>
         <p className="text-lg text-gray-500 text-center mb-8 max-w-md">
           A smart AI chatbot built with Next.js and Gemini. <br /> Click below to begin chatting.
